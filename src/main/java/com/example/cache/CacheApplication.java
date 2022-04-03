@@ -26,6 +26,7 @@ public class CacheApplication {
         for(int i=0; i<10; i++){
             Member member = Member.createMember("m" + i, i + 1, "s" + i);
             memberRepository.save(member);
+            System.out.println(memberRepository);
         }
     }
 

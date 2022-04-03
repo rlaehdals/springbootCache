@@ -21,7 +21,7 @@ import java.util.stream.Collectors;
 @Transactional
 @RequiredArgsConstructor
 @Slf4j
-public class MemberService {
+public class LocalMemoryCacheMemberService {
 
     private final MemberRepository memberRepository;
 

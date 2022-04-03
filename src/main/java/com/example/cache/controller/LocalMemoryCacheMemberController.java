@@ -1,8 +1,7 @@
 package com.example.cache.controller;
 
 import com.example.cache.domain.Dto;
-import com.example.cache.domain.Member;
-import com.example.cache.service.MemberService;
+import com.example.cache.service.LocalMemoryCacheMemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -10,9 +9,9 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-public class MemberController {
+public class LocalMemoryCacheMemberController {
 
-    private final MemberService memberService;
+    private final LocalMemoryCacheMemberService memberService;
 
     @GetMapping("/members")
     public List<Dto> findAll(){
