@@ -31,7 +31,7 @@ public class LocalMemoryCacheMemberService {
         return memberRepository.save(member).getId();
     }
 
-    @Cacheable(value = "memberList")
+//    @Cacheable(value = "memberList")
     public List<Dto> findAll(){
         log.info("findAll implement!!");
         return memberRepository.findAll().stream().map(a -> new Dto(a.getName(),a.getAge(),a.getCity()))

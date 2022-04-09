@@ -1,13 +1,18 @@
 package com.example.cache.domain;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
+import org.springframework.boot.autoconfigure.cache.CacheProperties;
 import org.springframework.data.redis.core.RedisHash;
 
 import javax.persistence.Id;
+import java.io.Serializable;
+import java.util.Objects;
 
-@RedisHash(value = "memberDto")
 @Getter
-public class RedisMember {
+@NoArgsConstructor
+@RedisHash(value = "redisMember")
+public class RedisMember{
 
     @Id
     private String id;
@@ -19,4 +24,9 @@ public class RedisMember {
         this.name = name;
         this.age = age;
     }
+
+    public void changeAge(int age){
+        this.age=age;
+    }
+
 }
