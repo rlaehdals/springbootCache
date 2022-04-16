@@ -29,4 +29,14 @@ public class RedisMember{
         this.age=age;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        RedisMember obj1 = (RedisMember) obj;
+        return this.name.equals(obj1.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
 }
