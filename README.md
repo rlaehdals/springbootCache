@@ -10,4 +10,4 @@ Local Memory Cache의 동작과정에 대한 내용은[Local-Memory-Cache 동작
 
 Redis 사용법에 대한 내용은 [Redis 사용하기](https://dingdingmin-back-end-developer.tistory.com/entry/Springboot-Cache-%EC%82%AC%EC%9A%A9%EA%B8%B03-Redis-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)에 설명되어 있습니다. 참고해주세요.
 
-Redis로 Cache 사용하는 방법에 대한 내용은 [Redis Cache 사용하기(https://dingdingmin-back-end-developer.tistory.com/entry/Springboot-Cache-%EC%82%AC%EC%9A%A9%EA%B8%B05-Redis-%EC%9D%B4%EC%9A%A9%ED%95%9C-Cache-%EC%82%AC%EC%9A%A9)에 설명되어 있습니다. 참고해주세요.
+Redis로 Cache 사용하는 방법에 대한 내용은 [Redis Cache 사용하기](https://dingdingmin-back-end-developer.tistory.com/entry/Springboot-Cache-%EC%82%AC%EC%9A%A9%EA%B8%B05-Redis-%EC%9D%B4%EC%9A%A9%ED%95%9C-Cache-%EC%82%AC%EC%9A%A9)에 설명되어 있습니다. 참고해주세요.
